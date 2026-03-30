@@ -7,27 +7,28 @@ El proyecto demuestra cómo integrar diferentes pasarelas de pago mediante el pa
 
 ## 📂 Estructura del Proyecto
 
-tienda-patrones-estructurales/
-├── pom.xml
-└── src/
-├── main/
-│   └── java/com/universidad/tienda/
-│       ├── TiendaApp.java
-│       ├── adapter/
-│       │   ├── PasarelaPago.java
-│       │   ├── PayPalAPI.java
-│       │   ├── StripeAPI.java
-│       │   ├── PayPalAdapter.java
-│       │   └── StripeAdapter.java
-│       ├── composite/
-│       │   ├── ItemCatalogo.java
-│       │   ├── Producto.java
-│       │   └── Categoria.java
-│       └── servicio/
-│           └── TiendaServicio.java
-└── test/
-└── java/com/universidad/tienda/
-└── TiendaServicioTest.java
+    ```text
+        tienda-patrones-estructurales/
+    ├── pom.xml
+    └── src/
+        ├── main/
+        │   └── java/com/universidad/tienda/
+        │       ├── TiendaApp.java
+        │       ├── adapter/
+        │       │   ├── PasarelaPago.java
+        │       │   ├── PayPalAPI.java
+        │       │   ├── StripeAPI.java
+        │       │   ├── PayPalAdapter.java
+        │       │   └── StripeAdapter.java
+        │       ├── composite/
+        │       │   ├── ItemCatalogo.java
+        │       │   ├── Producto.java
+        │       │   └── Categoria.java
+        │       └── servicio/
+        │           └── TiendaServicio.java
+        └── test/
+            └── java/com/universidad/tienda/
+                └── TiendaServicioTest.java
 
 
 ---
@@ -54,7 +55,7 @@ Servicio (TiendaServicio): orquesta ambos patrones para construir el catálogo y
    ```bash
    mvn spring-boot:run
 
-   ![alt text](image.png)
+![alt text](image.png)
 
 ---
 
@@ -64,4 +65,4 @@ Servicio (TiendaServicio): orquesta ambos patrones para construir el catálogo y
    ```bash
    mvn test
 
-   ![alt text](image-1.png)
+![alt text](image-1.png)
